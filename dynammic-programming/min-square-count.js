@@ -1,3 +1,18 @@
+{
+  /*
+
+     Problem Statement : 
+      
+     Given a number n, find the minimum number of perfect squares (square of an integer) that sum up to n. 
+     Input: n = 100
+     Output: 1
+     Explanation: 10 * 10 = 100
+     Input: n = 6
+     Output: 3
+     Explanation = 1 * 1 + 1 * 1 + 2 * 2 = 6 
+    */
+}
+
 class Solution {
   MinSquares(n) {
     let sqrtAnswer = Math.sqrt(n);
